@@ -1,0 +1,83 @@
+/* Base gradient */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(300deg, #ce3333 0%, #db4462 40%, #fa809c 70%, #ffffff 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #222;
+}
+
+section, .container, .container-fluid, header {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
+.logo-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 30%;
+}
+
+
+.hero-img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+
+.carousel-img {
+  max-height: 400px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.feature-img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.feature-icon-small {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+}
+
+
+.text-glow {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+}
+
+
+.text-basic { color: #fa809c; }
+.text-purfect { color: #db4462; }
+.text-meowsome { color: #ce3333; }
+
+.btn-outline-basic {
+  --bs-btn-color: #fa809c;
+  --bs-btn-border-color: #fa809c;
+  --bs-btn-hover-bg: #fa809c;
+  --bs-btn-hover-border-color: #fa809c;
+  --bs-btn-hover-color: #fff;
+}
+
+.btn-purfect {
+  background-color: #db4462;
+  border-color: #db4462;
+}
+
+.btn-meowsome {
+  background-color: #ce3333;
+  border-color: #ce3333;
+}
